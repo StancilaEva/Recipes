@@ -1,0 +1,8 @@
+<div>
+<div id="recipes-container" *ngFor="let recipe of recipes" >
+ <app-recipe [recipe]="recipe"></app-recipe>
+</div>
+<button (click)="addNewReciepe()">Add new reciepe</button>
+</div>
+<!-- <app-recipe [recipe]="recipes[0]"></app-recipe> -->
+<!-- <app-recipe [title]="someString"></app-recipe> -->
